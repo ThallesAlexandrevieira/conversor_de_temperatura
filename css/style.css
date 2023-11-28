@@ -1,0 +1,178 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+  display: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/4786547-termometro-com-circuito-eletronico-azul-e-gradiente-fundo-termometro-indicando-as-escalas-celsius-e-fahrenheit-instrumento-tecnologico-de-medicao-vetor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.degrade{
+	background-image: cyan;
+	height:92vh;
+	color: red;
+	font-family:Comic Sans Ms;
+	text-align:center;
+	font-size:25px;
+}
+
+#container {
+	position:absolute;
+	width:800px;
+	height:340px;
+	text-align: center;
+	background-color: transparent;
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:10px;	
+}
+
+.input-label {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.custom-input {
+	padding: 5px;
+	border-radius: 10px;
+	width: 200px;
+}
+
+#result {
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 37%;
+	background-color: transparent;
+	
+}
+
+button {
+	padding: 8px 16px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	background-color: cyan; /* Cor padrão do botão */
+	color: black; /* Cor do texto do botão */
+	transition: background-color 0.7s;
+}
+
+button:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+	box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red,
+	0 0 100px red, 0 0 200px red, 0 0 400px red; /* Cor do botão ao passar o mouse */
+}
+
+footer {
+    background-color: black;
+    color: #d12a2a;
+    padding: 20px;
+    text-align: center;
+	border-radius: 10px; 
+    overflow: hidden;
+	margin-top: 10px;	
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+.outer-container {
+	width:800px;
+	margin: 0 auto;
+	text-align:center;
+    background: rgb(31, 31, 31); /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+ }
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+	margin-left: 0px;
+	margin: 0 auto;
+	padding:5px;
+
+}
+
+.social-icons a {
+    color: white;
+    font-size: 40px;
+    margin: 0 20px;
+	
+}
+
+.social-icons a:hover {
+	
+    color: red; /* Ou a cor desejada para o hover */
+}
+
+
+
+
+
+h2 {
+  color: #333;
+}
+
+.outer-container{
+	background: rgb(31, 31, 31); 
+    padding: 30px; 
+	border-radius: 15px;  
+    overflow: hidden; 
+}
+
+button {
+	width: 220px;
+    height: 30px;
+	font-size: 15px;
+	background-color:#DCDCDC;
+	border:none;
+	color:black;
+	margin:2px;
+}
+
+button:hover {
+  background-color:black;
+  color: red;
+  font-size:15px;
+}
+
+	
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+.conversorMoedas{
+	position:absolute;
+	background-color: rgb(0,0,0.8);
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:15px;
+}
+
+.result-container{
+	margin-top: 10px;
+	background-color: #f2f2f2;
+	padding: 0px;
+	border-radius: 5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align:center !important;
+}
